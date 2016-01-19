@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#483D8B"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/tvJudul"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Daftar Barang"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+ 
+    <!--  dashboard dengan dua tombol -->
+    <!--  tombol untuk melihat data -->
+    <Button android:id="@+id/btnLihatData"
+	    android:layout_width="200dp"
+	    android:layout_height="50dp"
+        android:text="Lihat Data Barang"
+        android:textColor="#FFFFFF"
+        android:background="#00BFFF"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"/>
+ 
+    <!--  tombol untuk membuat data -->
+    <Button android:id="@+id/btnBuatData"
+	    android:layout_width="200dp"
+	    android:layout_height="50dp"
+        android:text="Tambah Data Barang"
+        android:background="#00BFFF"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:text="Close" 
+        android:layout_width="200dp"
+	    android:layout_height="50dp"
+        android:background="#00BFFF"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"/>
+ 
+</LinearLayout>
